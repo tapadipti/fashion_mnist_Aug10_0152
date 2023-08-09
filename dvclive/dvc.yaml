@@ -1,0 +1,9 @@
+metrics:
+- metrics.json
+plots:
+- plots/metrics:
+    x: step
+artifacts:
+  myfmmodel:
+    path: ../output/myfmmodel.keras
+    type: model
